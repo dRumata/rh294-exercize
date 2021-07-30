@@ -6,7 +6,7 @@
     - secret.yml
   tasks:
 
-    - name: Createing user from secret.yml
+    - name: Creating user from secret.yml
       user:
         name: "{{ username }}"
         password: "{{ pwhash }}"
